@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0066ff, #c65050);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Question container styles */
+#question-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#Question{
+    color: #010101;
+}
+
+/* Input field styling */
+input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 80%;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 2px solid #FFD700;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.8);
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0095DD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff6666;
+    transform: scale(1.05);
+}
+
+/* Score styling */
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #FFD700;
+}
