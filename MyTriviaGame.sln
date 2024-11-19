@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{8FD1F28A-EFFE-433F-8276-2F3387E97596}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriviaBackend", "backend\TriviaBackend\TriviaBackend.csproj", "{A1949C28-3DE9-4A41-AE68-FE3D1F46F243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1949C28-3DE9-4A41-AE68-FE3D1F46F243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1949C28-3DE9-4A41-AE68-FE3D1F46F243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1949C28-3DE9-4A41-AE68-FE3D1F46F243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1949C28-3DE9-4A41-AE68-FE3D1F46F243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1949C28-3DE9-4A41-AE68-FE3D1F46F243} = {8FD1F28A-EFFE-433F-8276-2F3387E97596}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2193E979-159E-4946-BC71-B69A254BF359}
+	EndGlobalSection
+EndGlobal
